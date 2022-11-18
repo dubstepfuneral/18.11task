@@ -26,7 +26,7 @@ class dateOfParse(Parser):
 class final(Filename, dateOfParse):
     pass
 
-parser = Parser('C:\\Users\\chill\\Documents\\Stuff on SSD\\Coding Projects\\Python\\ИТМО\\Технологии прогр\\11.11\\task 18.11\\text.txt')
+parser = Parser('text.txt')
 parser.parse()
 print(parser.filename, parser.date)
 print(parser.text)
